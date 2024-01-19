@@ -1,0 +1,68 @@
+/* __________ COMUME __________ */
+html {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: wavy underline;
+    color: gray;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 1rem 0;
+    padding: .7rem 2rem;
+}
+
+/* __________ HEADER __________ */
+header {
+    background-color: #eceeef;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-bottom: 2px solid #a5bac5;
+}
+
+header img {
+    height: 3rem;
+    margin: 1.5rem 0;
+}
+
+header a {
+    color: black;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+}
+
+header button {
+    background-color: black;
+    color: white;
+}
+
+header button:hover {
+    background-color: white;
+    color: black;
+}
+
+.linha_vertical {
+    height: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+/* __________ FOOTER __________ */

@@ -1,0 +1,44 @@
+/* ________ HERO __________ */
+#hero {
+    background-image: url(./imgs/fundo.webp);
+    background-size: cover;
+    background-position: center;
+
+    padding: 2rem 1.5rem;
+}
+
+#hero-text {
+    background-color: #e18795;
+    padding: 2rem;
+}
+
+#hero h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.1rem;
+    margin: .9rem 0;
+}
+
+#hero h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.3rem;
+}
+
+#hero p {
+    line-height: 1.3rem;
+}
+
+#hero button {
+    margin-bottom: 0;
+    background-color: #e18795;
+    border: 2px solid black;
+}
+
+#hero button:hover {
+    background-color: #fff;
+}
+
+#hero img {
+    display: none;
+}
