@@ -45,10 +45,6 @@
 }
 
 /* ________ PRODUTOS __________ */
-#products {
-    padding: 3rem 1.5rem 2rem 1.5rem;
-}
-
 #products-list ul {
     display: flex;
     flex-direction: column;
@@ -75,7 +71,6 @@
 
 /* ________ PERGUNTAS FREQUENTES __________ */
 #faq {
-    padding: 3rem 1.5rem 2rem 1.5rem;
     background-color: #eceeef;    
 }
 
@@ -101,3 +96,39 @@
 }
 
 /* ________ DEPOIMENTOS __________ */
+#depoimentos {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    padding-bottom: 4rem;
+}
+
+#box_depoimento {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    align-items: center;
+    margin: 0 1rem;
+    text-align: center;
+}
+
+#box_depoimento img {
+    width: 18%;
+    border-radius: 100%;
+    margin-bottom: .3rem;
+}
+
+#box_depoimento h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#box_depoimento span {
+    color: black;
+    font-size: .75rem;
+}
+
+#box_depoimento p {
+    line-height: 1.4rem;
+}

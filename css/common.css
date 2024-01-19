@@ -3,6 +3,10 @@ html {
     font-family: sans-serif;
 }
 
+section {
+    padding: 3rem 1.5rem 2rem 1.5rem;
+}
+
 a {
     text-decoration: none;
 }
