@@ -1,10 +1,53 @@
 /* ________ HERO __________ */
+@media (max-width:801px) {
+    #hero {
+        padding: 2rem 1.5rem;
+    }
+    
+    #hero img {
+        display: none;
+    }
+}
+
+@media (min-width:801px) {
+    #hero {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 3rem;
+        align-items: center;
+        padding: 2rem 5rem;
+    }
+
+    #hero img {
+        width: 90%;
+    }
+
+    #hero-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 0;
+
+        overflow: visible;
+        position: relative;
+        width: 100%;
+    }
+
+    #shadow {
+        border: 10px solid #f41668;
+        border-radius: 100%;
+        background-color: white;
+        height: 90%;
+        width: 90%;
+        position: absolute;
+        z-index: -1;
+    }
+}
+
 #hero {
     background-image: url(./imgs/fundo.webp);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-
-    padding: 2rem 1.5rem;
 }
 
 #hero-text {
@@ -38,10 +81,6 @@
 #hero button:hover {
     background-color: black;
     color: white;
-}
-
-#hero img {
-    display: none;
 }
 
 /* ________ PRODUTOS __________ */
