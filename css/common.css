@@ -39,8 +39,8 @@ a:hover {
 
 button {
     cursor: pointer;
-    border-radius: 10px;
-    border: 2px solid black;
+    border-radius: 12px;
+    border: 2px solid #2a0f14;
     font-weight: 600;
     font-size: 1rem;
     margin: 1rem 0;
@@ -48,19 +48,63 @@ button {
 }
 
 /* __________ HEADER __________ */
-header {
-    background-color: #eceeef;
+@media (max-width:801px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    #menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-    border-bottom: 2px solid #a5bac5;
+    header ul {
+        gap: 2rem;
+    }
+
+    header img {
+        height: 3rem;
+        margin: 1.5rem 0;
+    }
 }
 
-header img {
-    height: 3rem;
-    margin: 1.5rem 0;
+@media (min-width:801px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        /* height: 2rem; */
+
+        padding: 1.5rem;
+    }
+
+    #menu {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    header ul {
+        gap: 1rem;
+    }
+
+    header img {
+        height: 2rem;
+    }
+
+    header button {
+        margin: 0;
+        padding: .7rem 1.5rem;
+    }
+}
+
+header {
+    background-color: #eceeef;
+    border-bottom: 2px solid #a5bac5;
 }
 
 header a {
@@ -70,12 +114,11 @@ header a {
 header ul {
     list-style: none;
     display: flex;
-    gap: 2rem;
     padding: 0;
 }
 
 header button {
-    background-color: black;
+    background-color: #2a0f14;
     color: white;
 }
 
