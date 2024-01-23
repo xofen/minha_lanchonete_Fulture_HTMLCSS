@@ -134,6 +134,29 @@ header button:hover {
 }
 
 /* __________ FOOTER __________ */
+@media (min-width:801px) {
+    #menus {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 5rem;
+    }
+}
+
+@media (min-width:901px) {
+    #rodape {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #sub_menu {
+        margin-right: 3rem;
+    }
+
+    #stores {
+        width: 25%;
+    }
+}
 
 footer {
     background-color: #2a0f14;
