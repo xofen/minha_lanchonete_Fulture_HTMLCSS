@@ -127,6 +127,18 @@
 }
 
 /* ________ PERGUNTAS FREQUENTES __________ */
+@media (min-width:801px) {
+    #faq {
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    #box_perguntas {
+        width: 50%;
+    }
+}
+
 #faq {
     background-color: #eceeef;    
 }
@@ -142,23 +154,44 @@
 #box_perguntas details[open] summary {
     border-bottom: 1px solid;
     border-color: #a5bac5;
-
     padding-bottom: .6rem;
 }
 
 #box_perguntas p {
     line-height: 1.3rem;
-
     margin-top: .6rem;
 }
 
 /* ________ DEPOIMENTOS __________ */
-#depoimentos {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
+@media (max-width:801px) {
+    #depoimentos {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    
+        padding-bottom: 2rem;
+    }
 
-    padding-bottom: 2rem;
+    #box_depoimento img {
+        width: 18%;
+    }
+}
+
+@media (min-width:801px) {
+    #depos {
+        padding: 3rem 5rem;    
+    }
+
+    #depoimentos {
+        display: flex;
+        gap: 3rem;
+    
+        padding-bottom: 2rem;
+    }
+
+    #box_depoimento img {
+        width: 40%;
+    }
 }
 
 #box_depoimento {
@@ -171,7 +204,7 @@
 }
 
 #box_depoimento img {
-    width: 18%;
+    /* width: 18%; */
     border-radius: 100%;
     margin-bottom: .3rem;
 }
@@ -184,6 +217,7 @@
 #box_depoimento span {
     color: black;
     font-size: .75rem;
+    font-weight: 400;
 }
 
 #box_depoimento p {
