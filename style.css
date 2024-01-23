@@ -14,7 +14,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 2rem 12rem;
+        padding: 2rem 8rem;
+    }
+
+    #hero-text {
+        width: 60%;
     }
  
     #hero-img {
@@ -29,7 +33,8 @@
         background-color: white;
         border-radius: 50%;
         border: 10px solid #f41668;
-        width: 20%;
+        width: 30%;
+        max-width: 300px;
 
         margin-left: 3rem;
     }
