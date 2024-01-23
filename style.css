@@ -84,6 +84,24 @@
 }
 
 /* ________ PRODUTOS __________ */
+@media (max-width:801px) {
+    
+}
+
+@media (min-width:801px) {
+    #products-list li {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .reverso {
+        order: -1;
+        text-align: right;
+    }
+}
+
 #products-list ul {
     display: flex;
     flex-direction: column;
